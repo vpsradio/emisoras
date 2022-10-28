@@ -1,0 +1,1 @@
+email=$(grep CONTACT "$HESTIA/data/users/admin/user.conf" |cut -f 2 -d \')
