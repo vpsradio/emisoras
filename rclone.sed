@@ -17,7 +17,7 @@ wget https://raw.githubusercontent.com/vpsradio/emisoras/main/v-backup-user  -O 
 echo  "\e[31m Edito configuacion \e[0m"
 fi 
 
-grep "/usr/local/hestia/data/users/$user/user.conf" /usr/local/maldetect.last/internals/functions  -i  > /dev/null 2>&1 
+grep "/usr/local/hestia/data/users" /usr/local/maldetect.last/internals/functions  -i  > /dev/null 2>&1 
 if [ $? -eq 0 ]; then
 echo "\e[32m No edito configuacion \e[0m"
 else [ $? -eq 1 ];
