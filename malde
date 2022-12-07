@@ -215,7 +215,7 @@ quarantine_clean="1"
 # Cpanel suspend or set shell /bin/false on non-Cpanel
 # [NOTE: quarantine_hits=1 required]
 # [0 = disabled, 1 = suspend account]
-quarantine_suspend_user="0"
+quarantine_suspend_user="1"
 
 # The minimum userid value that can be suspended
 # [ default = 500 ]
