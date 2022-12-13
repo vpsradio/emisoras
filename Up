@@ -9,17 +9,17 @@ echo -e $TEXT_YELLOW
 echo 'APT update finished...'
 echo -e $TEXT_RESET
 
-sudo apt-get dist-upgrade -y
+sudo apt-get -qq dist-upgrade -y
 echo -e $TEXT_YELLOW
 echo 'APT distributive upgrade finished...'
 echo -e $TEXT_RESET
 
-sudo apt-get upgrade -y
+sudo apt-get -qq upgrade -y
 echo -e $TEXT_YELLOW
 echo 'APT upgrade finished...'
 echo -e $TEXT_RESET
 
-sudo apt-get autoremove -y
+sudo apt-get -qq autoremove -y
 echo -e $TEXT_YELLOW
 echo 'APT auto remove finished...'
 echo -e $TEXT_RESET
