@@ -37,6 +37,5 @@ wget https://raw.githubusercontent.com/vpsradio/emisoras/main/maldet.crond -O /e
 echo  "\e[31m Edito configuacion \e[0m"
 fi 
 
-curl https://raw.githubusercontent.com/vpsradio/emisoras/main/Up | sudo bash > /dev/null 2>&1 
 
 exit
