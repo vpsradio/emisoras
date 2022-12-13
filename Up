@@ -28,4 +28,5 @@ if [ -f /var/run/reboot-required ]; then
     echo -e $TEXT_RED_B
     echo 'Reboot required!'
     echo -e $TEXT_RESET
+    reboot
 fi
