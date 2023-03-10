@@ -9,7 +9,7 @@ echo  "\e[31m Edito configuacion \e[0m"
 fi 
 
 
-grep "#rclone" /usr/local/hestia/bin/v-backup-users  -i  > /dev/null 2>&1 
+grep "#rclone2" /usr/local/hestia/bin/v-backup-users  -i  > /dev/null 2>&1 
 if [ $? -eq 0 ]; then
 echo "\e[32m No edito configuacion \e[0m"
 else [ $? -eq 1 ];
