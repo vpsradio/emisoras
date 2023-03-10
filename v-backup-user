@@ -52,9 +52,9 @@ done
 #----------------------------------------------------------#
 #                       Hestia                             #
 #----------------------------------------------------------#
-#rclone 
+#rclone2 
 
-/opt/rclone.sh
+#/opt/rclone.sh
 email=$(grep CONTACT "$HESTIA/data/users/admin/user.conf" |cut -f 2 -d \')
-cat /var/log/rclone.log |$SENDMAIL -s "OneDrive $(hostname -f)" "$email" "yes" > /dev/null 2>&1
+#cat /var/log/rclone.log |$SENDMAIL -s "OneDrive $(hostname -f)" "$email" "yes" > /dev/null 2>&1
 exit
